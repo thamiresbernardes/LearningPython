@@ -7,7 +7,7 @@ lista = [
     ['Item 6', 'Importado', 36],
     ['Item 7', 'Nacional', 89],
     ['Item 8', 'Importado', 123],
-    ['Item 9', 'Nacional', 1],
+    ['Item 9', 'Nacional', 65],
 ]
 
 print(sorted(lista, key=lambda i: i[0]))

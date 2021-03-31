@@ -14,11 +14,11 @@ listaNumeros = [
 ]
 
 
-def encontraNumeroDuplicado(param_lista_de_inteiros):
+def encontraNumeroDuplicado(lendoLista):
     numeros_checados = set()
     primeiro_duplicado = -1
 
-    for numero in param_lista_de_inteiros:
+    for numero in lendoLista:
         if numero in numeros_checados:
             primeiro_duplicado = numero
             break
@@ -28,5 +28,5 @@ def encontraNumeroDuplicado(param_lista_de_inteiros):
     return primeiro_duplicado
 
 
-for lista_de_inteiros in listaNumeros:
-    print(lista_de_inteiros, encontraNumeroDuplicado(lista_de_inteiros))
+for listaInteiros in listaNumeros:
+    print(listaInteiros, encontraNumeroDuplicado(listaInteiros))

@@ -1,4 +1,4 @@
-# list comprehension
+# list comprehension https://realpython.com/list-comprehension-python/
 
 carrinho = []
 carrinho.append(('P1', 10.4))

@@ -2,7 +2,7 @@
 Zip = une iteráveis considerando os dados da menor lista
 Zip_longest = intertools
 """
-from itertools import zip_longest
+from itertools import zip_longest, count
 
 citys = ['Uberlândia', 'Rio Verde', 'Uberaba',
          'São Paulo', 'Ribeirão Preto', 'Monte Belo']

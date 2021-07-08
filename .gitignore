@@ -1,2 +1,3 @@
-Concepts/Sets.py
-Concepts/Functions.py
+.vscode/
+venv/
+.mypy_cache/

@@ -2,4 +2,4 @@
 venv/
 .mypy_cache/
 CONDICIONAIS/
-POO\__pycache__/
+POO\Contas\classes\__pycache__/

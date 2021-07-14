@@ -1,11 +1,16 @@
-def fatorar():
-    n = int(input("Digite o valor de n: "))
-    fat = 1
-    i = 2
-    while i <= n:
-        fat = fat*i
-        i = i + 1
+import math
+import os
+import random
+import re
+import sys
 
+n = int(input())
 
-print(fat)
-fatorar()
+if n % 2 != 0:  # odd is impar
+    print('Weird')
+elif(n >= 2) and (n <= 5):
+    print("Not Weird")
+elif (n >= 6) and (n <= 20):
+    print("Weird")
+elif n > 20 and n <= 100:
+    print('Not Weird')

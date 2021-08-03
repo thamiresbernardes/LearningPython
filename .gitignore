@@ -1,6 +1,6 @@
-.vscode/
+vscode/
 venv/
 .mypy_cache/
 CONDICIONAIS/
 POO\Contas\classes\__pycache__/
-.vscode\
+env/

@@ -1,6 +1,8 @@
-print('ATENÇÃO:')  # ctrl+D duplica a linha
+# CALCULANDO VOLUME DA ESFERA
+def vol_esfera(r):
+    return (((4 / 3) * 3.14) * r)
 
-'''
-print('Veja Israelito, isso nao foi impresso')
-'''
-print('s')
+
+r = 6
+volume = vol_esfera(r)
+print(f'O volume da esfera de raio {r} é {volume}')

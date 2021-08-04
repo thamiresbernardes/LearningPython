@@ -1,7 +1,9 @@
-#Condicionais
-#Operadores relacionais
-#== igualdade
-#!= Diferença
+# Condicionais
+# Operadores relacionais
+# == igualdade
+# != Diferença
+
+# SIMULA EMPRESTIMO
 
 nome = input('Entre com seu nome: ')
 renda = float(input('Qual sua renda? '))
@@ -11,4 +13,3 @@ if (2020 - idade) >= 18 and (renda >= renda_m):
     print('Olá {}, você pode pegar empréstimo.'.format(nome))
 else:
     print('Olá {}, você NÃO pode pegar empréstimo.'.format(nome))
-

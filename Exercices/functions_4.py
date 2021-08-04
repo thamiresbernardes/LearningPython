@@ -18,7 +18,7 @@ print(conta)
 
 
 def porc(n1, n2):
-    conta = n1+(n1*n2)
+    conta = n1 + (n1 * n2)
     return conta
 
 

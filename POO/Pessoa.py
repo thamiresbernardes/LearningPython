@@ -41,7 +41,7 @@ class Pessoa:
         self.falando = False
 
     def get_ano_nascimento(self):
-        print(self.ano_atual - self.idade)
+        print(f'Seu ano de mascimento é: {self.ano_atual - self.idade}')
 
     @classmethod  # referente a classe
     def por_ano_nasc(cls, nome, ano_nascimento):

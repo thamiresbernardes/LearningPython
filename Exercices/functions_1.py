@@ -1,4 +1,14 @@
-# Exercicio Faz e Desfaz
+# conceito inicial de função
+
+
+def introduction(first_name, last_name):
+    print("Hello, my name is", first_name, last_name)
+
+
+introduction("Luke", "Skywalker")
+introduction("Jesse", "Quick")
+introduction("Clark", "Kent")
+
 
 # Definindo funções
 def show_op(todo_list):

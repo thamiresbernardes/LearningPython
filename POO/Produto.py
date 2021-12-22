@@ -4,25 +4,35 @@ class Produto:
         self.preco = preco
 
     def desconto(self, percentual):
-        self.preco = self.preco - (self.preco * (percentual/100))
+        self.preco = self.preco - (self.preco * (percentual / 100))
 
 # GETTER
+
     @property
+    def nome(self):
+        return self._nome
+
+    @property  #decorador
     def preco(self):
         return self._preco
 
+
 # SETTER
+
+    @nome.setter
+    def nome(self, valor):
+        self._nome = valor.title()
+
     @preco.setter
     def preco(self, valor):
         if isinstance(valor, str):
             valor = float(valor.replace('R$', ''))
         self._preco = valor
 
-
-p1 = Produto('Camiseta', 152)
+p1 = Produto('camiseta', 152)
 p1.desconto(5)
-print(p1.preco)
+print(p1.nome, p1.preco)
 
-p2 = Produto('Moletom', 'R$365')  # usando o getter e setter
+p2 = Produto('moletom', 'R$365')  # usando o getter e setter
 p2.desconto(15)
-print(p2.preco)
+print(p2.nome, p2.preco)

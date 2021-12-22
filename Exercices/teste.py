@@ -1,7 +1,5 @@
-def boring_function():
-    return 123
-
-
-x = boring_function()
-
-print("The boring_function has returned its result. It's:", x)
+cpf = int(input("Digite seu cpf: "))
+list = []
+for i in cpf:
+    list = list.append[i]
+print(list[:3], '.', list[3:5], '.', list[6:8], '-', list[-2:])

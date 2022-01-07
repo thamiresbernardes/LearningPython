@@ -1,10 +1,11 @@
-# Condicionais
+
 # Operadores relacionais
 # == igualdade
 # != Diferença
 
 
 # SIMULA EMPRESTIMO
+.
 def emprestimo(nome, renda, anonascimento, anoatual=2021, renda_m=1000):
     if (anoatual - anonascimento) >= 18 and (renda >= renda_m):
         print('Olá {}, você pode pegar empréstimo.'.format(nome))

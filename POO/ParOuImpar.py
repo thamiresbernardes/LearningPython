@@ -1,8 +1,8 @@
-#Exercício que verifica se um número é par ou ímpar
+# Exercício que verifica se um número é par ou ímpar
 
 
 def verifica_par(num):
-    if num.isnumeric():
+    if num.isnumeric():  #verifica se é inteiro
         num = int(num)
         if num % 2 == 0:
             print("O número {} é par.".format(num))

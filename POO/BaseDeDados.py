@@ -6,6 +6,7 @@ private: __ (dois underlines)
 
 
 class BaseDeDados:
+
     def __init__(self):
         self.dados = {}
 

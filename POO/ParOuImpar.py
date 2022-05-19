@@ -2,7 +2,7 @@
 
 
 def verifica_par(num):
-    if num.isnumeric():  #verifica se é inteiro
+    if num.isnumeric():  # verifica se é inteiro
         num = int(num)
         if num % 2 == 0:
             print("O número {} é par.".format(num))

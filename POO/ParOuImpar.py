@@ -2,8 +2,8 @@
 
 
 def verifica_par(num):
-    if num.isnumeric():  # verifica se é inteiro
-        num = int(num)
+    if num.isnumeric():  # verifica se é um número
+        num = int(num)  # Transforma em inteiro
         if num % 2 == 0:
             print("O número {} é par.".format(num))
         else:

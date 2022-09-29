@@ -1,5 +1,7 @@
-cpf = int(input("Digite seu cpf: "))
-list = []
-for i in cpf:
-    list = list.append[i]
-print(list[:3], '.', list[3:5], '.', list[6:8], '-', list[-2:])
+from pathlib import Path
+
+module_name1 = "-".join(Path(__file__).parts[3:]).replace(".py", "")
+project_path = "/".join(Path(__file__).parts[3:-2]).replace(".py", "")
+module_name2 = "-".join(Path(__file__).parts[3:1]).replace(".py", "")
+print(module_name1)
+print(project_path)

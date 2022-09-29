@@ -4,9 +4,8 @@
 
 # SIMULA EMPRESTIMO
 
-
-def emprestimo(nome, renda, anonascimento, anoatual=2021, renda_m=1000):
-    if (anoatual - anonascimento) >= 18 and (renda >= renda_m):
+def emprestimo (nome, renda, anonascimento, anoatual=2022, renda_m=3000):
+    if (anoatual - anonascimento) > 17 and (renda >= renda_m):
         print('Olá {}, você pode pegar empréstimo.'.format(nome))
     else:
         print('Olá {}, você NÃO pode pegar empréstimo.'.format(nome))

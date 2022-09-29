@@ -1,7 +1,6 @@
 # TESTANDO STRINGS
 
 print(123456)
-print('Thamires', 'Bernardes', "Aprendendo")
 print('Thamires', "Bernardes", sep="--")
 print('Fazendo testes para o fim da frase',
       end=" $$$ ")  # End elimina a quebra de linha

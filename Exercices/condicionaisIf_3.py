@@ -1,3 +1,12 @@
+print("Exercise one")
+number_1 = int(input("Choose a number: "))
+number_2 = int(input("Choose other number: "))
+if number_1 >= number_2:
+    print(f"The {number_1} is higher or equal to the { number_2}")
+else:
+    print(f"The {number_2} is higher or equal to the { number_1}")
+print("======================================================")
+
 print("Exercício 02")
 hora = input('Entre com uma hora:')
 
